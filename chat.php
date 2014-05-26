@@ -4,7 +4,7 @@
 	$host = "localhost";
 	$user_password = "testsql";
 	error_reporting(E_ALL);
-	$LINK = mysql_connect($host, $user_name, $user_pass);
+	$LINK = mysql_connect($host, $user_name, $user_password);
 	if (!$LINK)
 		die('Error');
 
