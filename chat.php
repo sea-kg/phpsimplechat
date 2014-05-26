@@ -8,7 +8,7 @@
 	if (!$LINK)
 		die('Error');
 
-	$db=mysql_select_db($db_name, $LINK);
+	$db=mysql_select_db($database_name, $LINK);
 	if (!$db) {
 		die("err");
 	}
