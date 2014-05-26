@@ -1,10 +1,14 @@
 <?
+	$database_name = "testsql";
+	$user_name = "testsql";
+	$host = "localhost";
+	$user_password = "testsql";
 	error_reporting(E_ALL);
-	$LINK = mysql_connect("localhost", "testsql", "testsql");
+	$LINK = mysql_connect($host, $user_name, $user_pass);
 	if (!$LINK)
 		die('Error');
 
-	$db=mysql_select_db('testsql', $LINK);
+	$db=mysql_select_db($db_name, $LINK);
 	if (!$db) {
 		die("err");
 	}
