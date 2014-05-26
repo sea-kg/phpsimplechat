@@ -35,6 +35,8 @@
 </html>
 <body onload="document.getElementById('msg').focus();">
 <h1> simple chat </h1>
+<a href="https://github.com/sea-kg/phpsimplechat">github sources</a> | 
+<a href="chat_source.php">local sources</a>
 <form>
 	<table>
 		<tr>
