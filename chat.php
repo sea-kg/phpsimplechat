@@ -47,7 +47,7 @@
 		<tr>
 			<td><input type="text" name="author" value="<? echo (isset($_GET['author']) ? $_GET['author'] : "Test"); ?>" size="20"/></td>
 			<td><input id="msg" type="text" name="msg" size="50"/></td>
-			<td><input type="submit" value="абаПбаАаВаИбб"/></td>
+			<td><input type="submit" value="Send"/></td>
 		</tr>
 	</table>
 </form>
