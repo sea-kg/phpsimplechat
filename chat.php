@@ -40,8 +40,8 @@
 <form>
 	<table>
 		<tr>
-			<td>ааВбаОб:</td>
-			<td>аЁаОаОаБбаЕаНаИаЕ:</td>
+			<td>Author:</td>
+			<td>Message:</td>
 			<td></td>
 		</tr>
 		<tr>
